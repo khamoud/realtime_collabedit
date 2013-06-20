@@ -1,0 +1,17 @@
+the dual editor library can converts an html text area into a very simple
+real-time wysiwyg html editor. The text area width is divided by half and
+an html view of the markup entered into the text area is displayed to the
+right.
+
+Installation:
+1) Copy dual_editor.js to your web server
+2) reference dual_editor.js in your web page
+3) Add a text area to your page and set it's class to "dual_editor"
+
+on the page load event dual_editor.js will find the text area who's
+class is "dual_editor" and turn it into a dual editor.
+
+NOTE: This has been tested on Firefox and Google Chrome. It should work
+on Safari and other webkit browsers too. It has not been tested on any
+version of IE, and due its to the differences in event handling it
+probably will not work. FORK ME! and add IE support if you want it.
