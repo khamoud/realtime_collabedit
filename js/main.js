@@ -1,11 +1,9 @@
 
 var socket = io.connect('http://localhost:8000');
-
-
-
 //listen to display message event
 socket.on('insertText', function (data){
 	$('textarea#textType').val(data);
+	console.log(data);
 });
 
 //trigger send message event
